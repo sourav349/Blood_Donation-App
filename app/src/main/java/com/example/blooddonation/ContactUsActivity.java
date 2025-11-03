@@ -24,6 +24,7 @@ public class ContactUsActivity extends AppCompatActivity {
                 Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
                 emailIntent.setData(Uri.parse("mailto:support@blooddonationapp.com"));
                 startActivity(emailIntent);
+
             }
         });
     }
